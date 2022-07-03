@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+        <link rel="stylesheet" href="style.css">
+    <title>TODOs List</title>
+</head>
+
+<body>
+
+    <div class="container my-4">
+        <h2 class="text-center">Rizwan Akram</h2>
+        <h6 class="text-center">Roll No. : KWOWCBC4457</h6>
+        <h2 class="text-center">TODOs List</h2>
+         
+            <div class="form-group">
+                <label for="title">Enter Todo</label>
+                <input type="text" class="form-control" id="title" aria-describedby="emailHelp">
+                <small id="emailHelp" class="form-text text-muted">Add an item to the list</small>
+            </div>
+
+            <button  id="add" class="btn btn-primary" onclick="add()">Add to list</button>
+            <button  id="clear" class="btn btn-primary" onclick="del()">Clear list</button>
+            <hr />
+           <ul id="todo">
+
+           </ul>
+        <script src="/index.js"></script>
+</body>
+
+</html>
